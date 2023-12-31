@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APIS</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <body>
+    <h1>Currency Converter</h1>
+
+    <div class="container">
+        <h2>Pesos CLP</h2>
+      <div class="input-container">
+        <input type="text" placeholder="Ingrese Monto en CLP"/>
+      </div>
+      <p>Moneda a convertir:</p>
+      <div class="select-container">
+        <select name="" id="select_coin">
+          <option value="" disabled selected>--Seleciona una Moneda--</option>
+        </select>
+      </div>
+      <div class="btn-container">
+        <button id="search">Buscar</button>
+      </div>
+      <div class="result-container">Resultado: </div>
+    </div>
+
+    <div class="chart-container">
+      <canvas id="chart"></canvas>
+    </div>
+
+    <!-- Script -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- Chart js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </body>
+</html>
